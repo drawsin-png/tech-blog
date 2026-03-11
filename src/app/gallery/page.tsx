@@ -31,7 +31,7 @@ const galleryItems = [
         title: "졸음운전 AI 감지 인식 결과 (1)",
         description: "안면 랜드마크 스캔 기반 눈/입 열림 상태 판독 및 졸음운전(Drowsiness) 경고 송출 화면",
         date: "2026-03-11",
-        image: "/images/posts/drowsiness-rknn-result-1.png",
+        image: "/media/drowsiness-rknn-result-1.png",
         relatedPostUrl: "/posts/on-device-ai-drowsiness-detection-orange-pi-rknn"
     },
     {
@@ -39,7 +39,7 @@ const galleryItems = [
         title: "졸음운전 AI 감지 인식 결과 (2)",
         description: "실시간 스트리밍 모니터링 기반 파이프라인 연속 동작 테스트 화면",
         date: "2026-03-11",
-        image: "/images/posts/drowsiness-rknn-result-2.png",
+        image: "/media/drowsiness-rknn-result-2.png",
         relatedPostUrl: "/posts/on-device-ai-drowsiness-detection-orange-pi-rknn"
     }
 ];

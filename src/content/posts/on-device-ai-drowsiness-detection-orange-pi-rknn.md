@@ -131,8 +131,8 @@ graph TD
 
 실제 구동을 테스트하며 인식된 결과 화면입니다.
 
-![Drowsiness Result 1](/images/posts/drowsiness-rknn-result-1.png)
+![Drowsiness Result 1](/media/drowsiness-rknn-result-1.png)
 *눈/입 랜드마크 인식 및 졸음(Drowsiness) 감지 경고 화면*
 
-![Drowsiness Result 2](/images/posts/drowsiness-rknn-result-2.png)
+![Drowsiness Result 2](/media/drowsiness-rknn-result-2.png)
 *실시간 모니터링 파이프라인 작동 테스트 화면*
