@@ -124,3 +124,15 @@ graph TD
 
 ### 💡 마무리하며
 온디바이스 AI 환경 구축은 "PC 코드를 그대로 옮겨 심는" 단순한 이식이 아닙니다. 하드웨어의 자원 제약(발열, 전압, 메모리 대역폭)을 십분 이해하고, **특히 RKNN과 같은 NPU 아키텍처 특화 컴파일러를 얼마나 능숙하게 활용하여 최적화를 이뤄내느냐**가 실전 AI 프로젝트 완성의 핵심 열쇠임을 배웠습니다.
+
+---
+
+## 📸 실행 결과 (Execution Results)
+
+실제 구동을 테스트하며 인식된 결과 화면입니다.
+
+![Drowsiness Result 1](/images/posts/drowsiness-rknn-result-1.png)
+*눈/입 랜드마크 인식 및 졸음(Drowsiness) 감지 경고 화면*
+
+![Drowsiness Result 2](/images/posts/drowsiness-rknn-result-2.png)
+*실시간 모니터링 파이프라인 작동 테스트 화면*
