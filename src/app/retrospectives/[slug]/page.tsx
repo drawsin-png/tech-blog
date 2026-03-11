@@ -17,7 +17,7 @@ export async function generateStaticParams() {
 
 export default async function RetrospectivePage({ params }: Params) {
     const { slug } = await params;
-    const post = getPostBySlug(slug, ["title", "date", "content", "tags"], "retrospectives");
+    const post = getPostBySlug(slug, ["title", "date", "content", "tags", "slug"], "retrospectives");
 
     if (!post) {
         return notFound();
@@ -45,7 +45,7 @@ export default async function RetrospectivePage({ params }: Params) {
                 </div>
                 <div className="mt-4">
                     <a
-                        href={`https://github.com/drawsin-png/tech-blog/edit/master/src/content/retrospectives/${post.slug}.md`}
+                        href={`https://github.com/drawsin-png/tech-blog/edit/main/src/content/retrospectives/${post.slug}.md`}
                         target="_blank"
                         rel="noreferrer"
                         className="inline-flex items-center gap-1 text-sm font-medium text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors"
