@@ -45,7 +45,7 @@ export default async function RetrospectivePage({ params }: Params) {
                 </div>
                 <div className="mt-4">
                     <a
-                        href={`https://github.com/drawsin/tech-blog/edit/master/src/content/retrospectives/${post.slug}.md`}
+                        href={`https://github.com/drawsin-png/tech-blog/edit/master/src/content/retrospectives/${post.slug}.md`}
                         target="_blank"
                         rel="noreferrer"
                         className="inline-flex items-center gap-1 text-sm font-medium text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors"
