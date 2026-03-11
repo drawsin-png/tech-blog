@@ -28,6 +28,7 @@ export default function RootLayout({
               <Link href="/" className="hover:text-blue-500 transition-colors">홈</Link>
               <Link href="/posts" className="hover:text-blue-500 transition-colors">포스트</Link>
               <Link href="/retrospectives" className="hover:text-blue-500 transition-colors">회고록</Link>
+              <Link href="/gallery" className="hover:text-blue-500 transition-colors">결과물</Link>
             </nav>
             <div className="flex items-center gap-4 text-zinc-500 dark:text-zinc-400">
               <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-zinc-900 dark:hover:text-white transition-colors">
