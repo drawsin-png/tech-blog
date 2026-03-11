@@ -43,6 +43,16 @@ export default async function RetrospectivePage({ params }: Params) {
                         ))}
                     </div>
                 </div>
+                <div className="mt-4">
+                    <a
+                        href={`https://github.com/drawsin/tech-blog/edit/master/src/content/retrospectives/${post.slug}.md`}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-1 text-sm font-medium text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors"
+                    >
+                        GitHub에서 이 회고록 수정하기
+                    </a>
+                </div>
             </header>
 
             <div className="prose prose-zinc dark:prose-invert prose-lg max-w-none prose-headings:font-bold prose-h2:text-emerald-600 dark:prose-h2:text-emerald-400 prose-a:text-emerald-500 hover:prose-a:text-emerald-600 dark:hover:prose-a:text-emerald-400 prose-img:rounded-2xl">

@@ -43,6 +43,16 @@ export default async function PostPage({ params }: Params) {
                         ))}
                     </div>
                 </div>
+                <div className="mt-4">
+                    <a
+                        href={`https://github.com/drawsin/tech-blog/edit/master/src/content/posts/${post.slug}.md`}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="inline-flex items-center gap-1 text-sm font-medium text-zinc-400 hover:text-zinc-900 dark:hover:text-white transition-colors"
+                    >
+                        GitHub에서 이 글 수정하기
+                    </a>
+                </div>
             </header>
 
             <div className="prose prose-zinc dark:prose-invert prose-lg max-w-none prose-headings:font-bold prose-a:text-blue-500 hover:prose-a:text-blue-600 dark:hover:prose-a:text-blue-400 prose-img:rounded-2xl">

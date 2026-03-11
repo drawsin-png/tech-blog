@@ -34,7 +34,7 @@ export default function RootLayout({
               <a href="https://github.com" target="_blank" rel="noreferrer" className="hover:text-zinc-900 dark:hover:text-white transition-colors">
                 <Github size={20} />
               </a>
-              <a href="mailto:yeo@example.com" className="hover:text-zinc-900 dark:hover:text-white transition-colors">
+              <a href="mailto:drawsin@naver.com" className="hover:text-zinc-900 dark:hover:text-white transition-colors">
                 <Mail size={20} />
               </a>
             </div>
