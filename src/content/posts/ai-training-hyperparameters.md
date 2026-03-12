@@ -7,16 +7,23 @@ tags: ["AI", "Deep Learning", "Hyperparameters", "Teachable Machine"]
 
 # 🤖 AI를 가르치는 3대 비법: 에폭, 배치, 학습률
 
+![슬라이드 1](/media/ai-training-secrets-01.png)
+
 졸음운전 감지 모델을 만들기 위해 데이터(졸음 200장, 정상 200장)를 준비하셨나요? 이제 컴퓨터에게 이 사진들을 공부시킬 차례입니다. 티쳐블 머신(Teachable Machine) 설정 창에서 보게 될 **'에폭(Epochs)', '배치 사이즈(Batch Size)', '학습률(Learning Rate)'**이 무엇인지, 그리고 모델이 멍청할 때 어떻게 고쳐야 하는지 아주 쉽게 알려드릴게요!
 
 ---
 
 ## 👨‍🏫 비유: AI는 '시험 공부'를 하는 학생입니다
 
+![슬라이드 2](/media/ai-training-secrets-02.png)
+![슬라이드 3](/media/ai-training-secrets-03.png)
+
 모든 설명을 이해하기 쉽게 **"교과서 400페이지(데이터 400장)를 공부해서 시험을 보는 학생"**으로 비유해 보겠습니다.
 
 ### 1. 에폭 (Epochs) : "심화 학습 횟수"
 > **"교과서 전체를 총 몇 번 반복해서 읽을까요?"**
+
+![슬라이드 4](/media/ai-training-secrets-04.png)
 
 *   **의미**: 준비한 400장의 사진 전체를 AI가 딱 한 번 다 훑어본 상태가 '1 에폭'입니다.
 *   **왜 필요한가?**: 교과서를 한 번만 읽으면 내용을 다 이해하지 못하겠죠? 여러 번 반복해서 봐야 "아, 이게 눈을 감은 거구나!" 하고 확실히 깨닫게 됩니다.
@@ -27,6 +34,8 @@ tags: ["AI", "Deep Learning", "Hyperparameters", "Teachable Machine"]
 ### 2. 배치 사이즈 (Batch Size) : "한 번에 공부할 분량"
 > **"채점하기 전에 몇 문제를 한꺼번에 풀까요?"**
 
+![슬라이드 5](/media/ai-training-secrets-05.png)
+
 *   **의미**: AI가 사진들을 묶음으로 공부할 때 그 '묶음의 크기'입니다.
 *   **왜 필요한가?**: 400장을 한 장씩 보고 그때마다 "이게 맞나?" 하고 고민하는 것보다, 16장이나 32장씩 묶어서 보고 "아, 이 묶음은 대체로 이런 특징이 있네!" 하고 결론을 내리는 게 훨씬 효율적이고 학습이 안정적입니다.
 *   **값이 주는 의미**:
@@ -35,6 +44,8 @@ tags: ["AI", "Deep Learning", "Hyperparameters", "Teachable Machine"]
 
 ### 3. 학습률 (Learning Rate) : "나의 고집(반영도)"
 > **"틀린 문제를 보고 얼마나 과감하게 지식을 수정할까요?"**
+
+![슬라이드 6](/media/ai-training-secrets-06.png)
 
 *   **의미**: 정답을 틀렸을 때 AI가 본인의 알고리즘(가중치)을 얼마나 많이 바꿀지 결정하는 수치입니다. (보통 0.001처럼 작은 소수점입니다.)
 *   **왜 필요한가?**: 너무 소심하게 바꾸면 공부가 평생 안 끝나고, 너무 과격하게 바꾸면 산으로 가버립니다.
@@ -45,6 +56,8 @@ tags: ["AI", "Deep Learning", "Hyperparameters", "Teachable Machine"]
 ---
 
 ## 🛠 모델이 잘 안 될 때! 트러블슈팅 가이드
+
+![슬라이드 7](/media/ai-training-secrets-07.png)
 
 결과물이 엉망이라면 아래 순서대로 값을 조절해 보세요. **(매우 중요!)**
 
@@ -61,6 +74,9 @@ tags: ["AI", "Deep Learning", "Hyperparameters", "Teachable Machine"]
 
 ## 📺 PPT 발표를 위한 핵심 요약
 
+![슬라이드 8](/media/ai-training-secrets-08.png)
+![슬라이드 9](/media/ai-training-secrets-09.png)
+
 슬라이드를 만드실 때 이 구조를 사용하세요!
 
 | 항목 | 핵심 키워드 | 발표 멘트 |
@@ -71,4 +87,11 @@ tags: ["AI", "Deep Learning", "Hyperparameters", "Teachable Machine"]
 
 ---
 
+![슬라이드 10](/media/ai-training-secrets-10.png)
+
 > **Tip**: 모델이 완벽하지 않은 건 파라미터 탓도 있지만, **졸음 사진 200장이 너무 비슷해서(같은 각도, 같은 조명)** 그럴 수도 있습니다. 조금 더 다양한 각도의 사진을 넣어주는 것이 백 마디 설명보다 강력할 때가 많습니다!
+
+---
+
+## 📂 자료 다운로드
+- [프레젠테이션 - AI를 가르치는 3대 비법.pdf](/docs/ai-training-secrets.pdf)
