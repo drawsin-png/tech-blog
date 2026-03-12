@@ -1,7 +1,5 @@
 import { Aperture } from "lucide-react";
 
-export const dynamic = 'force-dynamic';
-
 const galleryItems = [
     {
         id: 4,
@@ -51,7 +49,7 @@ export default function GalleryPage() {
             <div className="mb-12">
                 <h1 className="text-4xl font-extrabold tracking-tight mb-4 flex items-center gap-3">
                     <Aperture className="text-blue-500 w-8 h-8" />
-                    갤러리 (최신 업데이트 반영)
+                    결과물 (Gallery)
                 </h1>
                 <p className="text-zinc-600 dark:text-zinc-400 text-lg">
                     각 프로젝트와 포스트에서 파생된 이미지, 그래프, 시각적 결과물 모음입니다.
