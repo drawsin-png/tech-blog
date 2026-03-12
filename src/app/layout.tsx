@@ -22,7 +22,7 @@ export default function RootLayout({
         <header className="fixed top-0 z-50 w-full backdrop-blur-xl bg-white/70 dark:bg-zinc-950/70 border-b border-zinc-200/50 dark:border-zinc-800/50">
           <div className="container mx-auto max-w-5xl px-6 h-16 flex items-center justify-between">
             <Link href="/" className="text-xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-teal-400 dark:from-blue-400 dark:to-teal-300">
-              TechBlog.
+              TechBlog (Update v1.1)
             </Link>
             <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
               <Link href="/" className="hover:text-blue-500 transition-colors">홈</Link>
