@@ -29,3 +29,12 @@ tags: ["Deep Learning", "CNN", "Keras", "TensorFlow", "Computer Vision"]
 
 ## 💡 느낀 점
 과거에는 오픈소스를 그대로 가져다 돌려보는 수준에 그쳤지만, 이제는 경로(Path)를 직접 설정하고 `.sh` 실행 쉘 스크립트(`run_live.sh`, `run_train.sh`)까지 수정할 수 있게 되었습니다. 에러가 나더라도 터미널 로그를 차분히 읽고 디버깅하는 근육이 조금 붙은 것 같아 뿌듯한 프로젝트였습니다.
+
+---
+
+## 📸 실행 결과 (Execution Results)
+
+학습 파이프라인(`mask_train_model.py`) 실행을 통해 도출된 Acc/Loss 그래프입니다.
+
+![Mask Detection Training Plot](/media/mask_plot.png)
+*Tensorflow Keras 커스텀 CNN 모델의 Accuracy & Loss 학습 그래프*

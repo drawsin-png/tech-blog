@@ -53,3 +53,15 @@ result = np.where(sun_mask_3d == 255, img_bgr, img_gray_bgr)
 ## 💡 결론 및 응용
 이처럼 영상 처리의 기본은 `ROI(관심 영역)`를 마스킹해 타겟을 분리하고, 그 데이터를 변환/합성하는 것입니다. 
 마스크를 어떤 색 범위(`cv2.inRange`)로 잡느냐에 따라 쨍한 파란색 번호판만 추출해 내고, 빨간색 토마토만 골라낼 수 있습니다. 이 과정이 쌓여 컴퓨터 비전 AI의 가장 기초적인 자양분이 됩니다.
+
+---
+
+## 📸 실행 결과 (Execution Results)
+
+HSV 색공간을 활용한 햇빛 영역 마스킹 합성 결과입니다.
+
+![OpenCV Original Image](/media/123.jpg)
+*OpenCV BGR 원본 테스트 이미지*
+
+![OpenCV Processing Result](/media/123_result.jpg)
+*밝은 영역(햇빛)만 컬러로 남기고 배경을 흑백 처리한 결과*
