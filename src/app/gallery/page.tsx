@@ -29,7 +29,7 @@ const galleryItems = [
     {
         id: 4,
         title: "졸음운전 AI 감지 인식 결과 (1)",
-        description: "안면 랜드마크 스캔 기반 눈/입 열림 상태 판독 및 졸음운전(Drowsiness) 경고 송출 화면",
+        description: "락칩 NPU를 활용한 안면 랜드마크 분석 기반 고속 추론 결과물입니다. 눈과 입의 개폐 상태를 실시간으로 판독하여 졸음을 감지합니다.",
         date: "2026-03-11",
         image: "/media/drowsiness-rknn-result-1.png",
         relatedPostUrl: "/posts/on-device-ai-drowsiness-detection-orange-pi-rknn"
@@ -37,7 +37,7 @@ const galleryItems = [
     {
         id: 5,
         title: "졸음운전 AI 감지 인식 결과 (2)",
-        description: "실시간 스트리밍 모니터링 기반 파이프라인 연속 동작 테스트 화면",
+        description: "연속된 프레임 간의 움직임을 추적하여 하품이나 눈 감음 시간을 누적 계산하는 실시간 모니터링 파이프라인 테스트 화면입니다.",
         date: "2026-03-11",
         image: "/media/drowsiness-rknn-result-2.png",
         relatedPostUrl: "/posts/on-device-ai-drowsiness-detection-orange-pi-rknn"

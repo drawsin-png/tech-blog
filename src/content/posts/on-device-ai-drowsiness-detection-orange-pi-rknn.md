@@ -129,10 +129,10 @@ graph TD
 
 ## 📸 실행 결과 (Execution Results)
 
-실제 구동을 테스트하며 인식된 결과 화면입니다.
+락칩(Rockchip) NPU 가속을 이용해 실리콘 레벨에서 최적화된 졸음운전 감지 시스템의 실제 구동 화면입니다.
 
 ![Drowsiness Result 1](/media/drowsiness-rknn-result-1.png)
-*눈/입 랜드마크 인식 및 졸음(Drowsiness) 감지 경고 화면*
+*안면 랜드마크 분석 기반 실시간 졸음(Drowsiness) 감지 캡처 (ChatGPT Image 2026-03-11 04:07:12 참조)*
 
 ![Drowsiness Result 2](/media/drowsiness-rknn-result-2.png)
-*실시간 모니터링 파이프라인 작동 테스트 화면*
+*멀티 프레임 파이프라인 연속 동작 및 실시간 모니터링 테스트 (ChatGPT Image 2026-03-11 04:12:46 참조)*
