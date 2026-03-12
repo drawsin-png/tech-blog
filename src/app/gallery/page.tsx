@@ -3,6 +3,22 @@ import Image from "next/image";
 
 const galleryItems = [
     {
+        id: 4,
+        title: "졸음운전 AI 감지 인식 결과 (1)",
+        description: "락칩 NPU를 활용한 안면 랜드마크 분석 기반 고속 추론 결과물입니다. 눈과 입의 개폐 상태를 실시간으로 판독하여 졸음을 감지합니다.",
+        date: "2026-03-11",
+        image: "/media/drowsiness-rknn-result-1.png",
+        relatedPostUrl: "/posts/on-device-ai-drowsiness-detection-orange-pi-rknn"
+    },
+    {
+        id: 5,
+        title: "졸음운전 AI 감지 인식 결과 (2)",
+        description: "연속된 프레임 간의 움직임을 추적하여 하품이나 눈 감음 시간을 누적 계산하는 실시간 모니터링 파이프라인 테스트 화면입니다.",
+        date: "2026-03-11",
+        image: "/media/drowsiness-rknn-result-2.png",
+        relatedPostUrl: "/posts/on-device-ai-drowsiness-detection-orange-pi-rknn"
+    },
+    {
         id: 1,
         title: "마스크 착용 감지 훈련 결과",
         description: "Tensorflow Keras 커스텀 CNN 모델의 Accuracy & Loss 학습 그래프",
@@ -25,22 +41,6 @@ const galleryItems = [
         date: "2026-02-13",
         image: "/media/123.jpg",
         relatedPostUrl: "/posts/opencv-image-processing"
-    },
-    {
-        id: 4,
-        title: "졸음운전 AI 감지 인식 결과 (1)",
-        description: "락칩 NPU를 활용한 안면 랜드마크 분석 기반 고속 추론 결과물입니다. 눈과 입의 개폐 상태를 실시간으로 판독하여 졸음을 감지합니다.",
-        date: "2026-03-11",
-        image: "/media/drowsiness-rknn-result-1.png",
-        relatedPostUrl: "/posts/on-device-ai-drowsiness-detection-orange-pi-rknn"
-    },
-    {
-        id: 5,
-        title: "졸음운전 AI 감지 인식 결과 (2)",
-        description: "연속된 프레임 간의 움직임을 추적하여 하품이나 눈 감음 시간을 누적 계산하는 실시간 모니터링 파이프라인 테스트 화면입니다.",
-        date: "2026-03-11",
-        image: "/media/drowsiness-rknn-result-2.png",
-        relatedPostUrl: "/posts/on-device-ai-drowsiness-detection-orange-pi-rknn"
     }
 ];
 
@@ -50,7 +50,7 @@ export default function GalleryPage() {
             <div className="mb-12">
                 <h1 className="text-4xl font-extrabold tracking-tight mb-4 flex items-center gap-3">
                     <Aperture className="text-blue-500 w-8 h-8" />
-                    결과물 (Gallery)
+                    갤러리 (최신 업데이트 반영)
                 </h1>
                 <p className="text-zinc-600 dark:text-zinc-400 text-lg">
                     각 프로젝트와 포스트에서 파생된 이미지, 그래프, 시각적 결과물 모음입니다.
